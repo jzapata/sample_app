@@ -1,4 +1,15 @@
 SampleApp::Application.routes.draw do
+  
+  get "pages/home"
+  
+  # pages is the controller
+  # home is the action
+  
+  get "pages/contact"
+
+  # pages is the controller
+  # contact is the action
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
