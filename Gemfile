@@ -9,12 +9,14 @@ gem 'sqlite3'
 
 
 group :development do
-  gem 'rspec-rails', '2.0.1'
+#original  gem 'rspec-rails' , '2.0.1'
+  gem 'rspec-rails', '~> 2.8'
 end  
 
 group :test do
-  gem 'rspec', '2.0.1'
-  gem 'webrat', '0.7.1'
+#original  gem 'rspec' , '2.0.1'
+  gem 'rspec-rails', '~> 2.8'
+  gem 'webrat' , '0.7.1'
 end  
 
 # Gems used only for assets and not required
@@ -30,6 +32,10 @@ group :assets do
 end
 
 gem 'jquery-rails'
+
+# crap added from tutorial book page 85
+#  gem "autotest-growl"
+#  gem "autotest-fsevent"
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

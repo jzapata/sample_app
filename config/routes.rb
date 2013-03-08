@@ -6,7 +6,8 @@ SampleApp::Application.routes.draw do
   # home is the action
   
   get "pages/contact"
-
+  get "pages/about"
+  
   # pages is the controller
   # contact is the action
   
